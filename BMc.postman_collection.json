@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "bc9eb087-f3ad-411b-84d8-9c67beb7229d",
+		"name": "BMc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "request_collection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[{\"HeightCm\": 176.42109522800862, \"WeightKg\": 46, \"Gender\": \"Male\"}, {\"HeightCm\": 161.80000830688283, \"WeightKg\": 58.323894709329004, \"Gender\": \"Male\"}, {\"HeightCm\": 164.32923361045832, \"WeightKg\": 93.10871986138466, \"Gender\": \"Male\"}]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,4 @@
+,Gender,Height,Weight,Bmi,Bmi categories,Health risk
+0,Male,1.7642109522800862,46.0,26.073979384692674,Overweight,Enhanced risk
+1,Male,1.6180000830688284,58.323894709329004,36.046904644595095,Severely obese,High risk
+2,Male,1.6432923361045833,93.10871986138466,56.65986374773611,Veryseverely obese,Very high risk
