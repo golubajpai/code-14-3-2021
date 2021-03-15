@@ -2,7 +2,7 @@ from django.test import TestCase
 import numpy as np
 import pandas as pd
 
-class PuppyTest(TestCase):
+class BMCTest(TestCase):
     """ Test module """
     dummy_data=None
 
@@ -18,7 +18,7 @@ class PuppyTest(TestCase):
         
         
 
-    def test_puppy_breed(self):
+    def test_requests(self):
         url=''
         response = self.client.post(url, self.dummy_data,content_type='application/json')
         assert response.status_code==200
